@@ -254,7 +254,6 @@ def train(args: argparse.Namespace) -> None:
                     "epoch":    epoch,
                     "val_acc":  val_acc,
                     "model_state_dict":     model.state_dict(),
-                    "optimizer_state_dict": optimizer.state_dict(),
                     "class_names":          class_names,
                 },
                 save_path,

@@ -4,8 +4,8 @@ title: Cover Page
 
 <div align="center">
 
-# [University / Institution Name]
-## Faculty of Computer Science and Engineering
+# Zakir Husain College of Engineering and Technology, Aligarh Muslim University
+## Interdisciplinary Center for Artificial Intelligence
 
 ---
 
@@ -29,10 +29,10 @@ title: Cover Page
 
 | Field | Detail |
 |---|---|
-| **Student Name** | [Student Name] |
-| **Student ID** | [Student ID] |
-| **Instructor** | [Instructor Name] |
-| **Submission Date** | November 2026 |
+| **Student Name** | Mo Sahil |
+| **Faculty No** | [25AIBEA101] |
+| **Enrollment No** | [GP0884] |
+| **Submission Date** | 20 November 2026 |
 
 &nbsp;
 
