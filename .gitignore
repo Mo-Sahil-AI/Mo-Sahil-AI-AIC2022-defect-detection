@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Datasets
+data/
+archive/
+*.zip
+*.tar.gz
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# PyTorch Models & Weights (exceeds GitHub 100MB limit)
+*.pth
+*.pt
+models/*.pth
+*.pt.tmp

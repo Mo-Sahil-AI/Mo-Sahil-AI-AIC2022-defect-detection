@@ -1,0 +1,11 @@
+Classification Report — Surface Defect Detection
+============================================================
+
+              precision    recall  f1-score   support
+
+   def_front     1.0000    0.9934    0.9967       453
+    ok_front     0.9887    1.0000    0.9943       262
+
+    accuracy                         0.9958       715
+   macro avg     0.9943    0.9967    0.9955       715
+weighted avg     0.9959    0.9958    0.9958       715

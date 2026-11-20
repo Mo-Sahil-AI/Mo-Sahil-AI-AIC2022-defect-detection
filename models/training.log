@@ -1,0 +1,45 @@
+2026-11-20 15:45:13,692 [INFO] src.utils — Random seed set to 42
+2026-11-20 15:45:13,692 [INFO] __main__ — Device: cpu
+2026-11-20 15:45:13,692 [INFO] __main__ — Arguments: {'data_dir': 'C:\\Users\\kas20\\Downloads\\archive\\casting_data\\train', 'epochs': 10, 'lr': 0.001, 'batch_size': 32, 'output_dir': 'models'}
+2026-11-20 15:47:24,161 [INFO] src.utils — Random seed set to 42
+2026-11-20 15:47:24,162 [INFO] __main__ — Device: cpu
+2026-11-20 15:47:24,162 [INFO] __main__ — Arguments: {'data_dir': 'C:\\Users\\kas20\\Downloads\\archive\\casting_data\\casting_data\\train', 'epochs': 10, 'lr': 0.001, 'batch_size': 32, 'output_dir': 'models'}
+2026-11-20 15:47:24,348 [INFO] __main__ — Dataset split — total: 6633, train: 4643, val: 1990
+2026-11-20 15:47:24,350 [INFO] __main__ — Classes: ['def_front', 'ok_front']
+2026-11-20 15:47:34,085 [INFO] src.model — Loaded ResNet18 with ImageNet pre-trained weights.
+2026-11-20 15:47:34,088 [INFO] src.model — Model ready — trainable params: 8,394,754 / 11,177,538 (75.1%)
+2026-11-20 15:47:34,090 [INFO] __main__ — ============================================================
+2026-11-20 15:47:34,091 [INFO] __main__ — Starting training …
+2026-11-20 15:47:34,091 [INFO] __main__ — ============================================================
+2026-11-20 15:47:34,091 [INFO] __main__ — 
+Epoch 1/10
+2026-11-20 15:51:08,251 [INFO] __main__ —   Train  — loss: 0.1613  acc: 94.27%
+2026-11-20 15:51:08,251 [INFO] __main__ —   Val    — loss: 0.0255  acc: 98.99%  [214.2s]
+2026-11-20 15:51:08,400 [INFO] __main__ — 
+Epoch 2/10
+2026-11-20 15:54:52,382 [INFO] __main__ —   Train  — loss: 0.0828  acc: 97.09%
+2026-11-20 15:54:52,383 [INFO] __main__ —   Val    — loss: 0.0238  acc: 99.35%  [224.0s]
+2026-11-20 15:54:52,499 [INFO] __main__ — 
+Epoch 3/10
+2026-11-20 15:58:44,024 [INFO] __main__ —   Train  — loss: 0.0449  acc: 98.60%
+2026-11-20 15:58:44,025 [INFO] __main__ —   Val    — loss: 0.0152  acc: 99.60%  [231.5s]
+2026-11-20 15:58:44,184 [INFO] __main__ — 
+Epoch 4/10
+2026-11-20 16:02:36,383 [INFO] __main__ —   Train  — loss: 0.0275  acc: 99.33%
+2026-11-20 16:02:36,384 [INFO] __main__ —   Val    — loss: 0.0182  acc: 99.50%  [232.2s]
+2026-11-20 16:02:36,384 [INFO] src.model — EarlyStopping counter: 1 / 3
+2026-11-20 16:02:36,384 [INFO] __main__ — 
+Epoch 5/10
+2026-11-20 16:05:53,919 [INFO] __main__ —   Train  — loss: 0.0247  acc: 99.20%
+2026-11-20 16:05:53,920 [INFO] __main__ —   Val    — loss: 0.0156  acc: 99.65%  [197.5s]
+2026-11-20 16:05:54,119 [INFO] src.model — EarlyStopping counter: 2 / 3
+2026-11-20 16:05:54,119 [INFO] __main__ — 
+Epoch 6/10
+2026-11-20 16:10:13,879 [INFO] __main__ —   Train  — loss: 0.0247  acc: 99.35%
+2026-11-20 16:10:13,879 [INFO] __main__ —   Val    — loss: 0.0178  acc: 99.50%  [259.8s]
+2026-11-20 16:10:13,880 [INFO] src.model — EarlyStopping counter: 3 / 3
+2026-11-20 16:10:13,880 [INFO] src.model — Early stopping triggered.
+2026-11-20 16:10:13,880 [INFO] __main__ — Early stopping at epoch 6.
+2026-11-20 16:10:13,881 [INFO] __main__ — ============================================================
+2026-11-20 16:10:13,881 [INFO] __main__ — Training complete. Best val accuracy: 99.65% at epoch 5.
+2026-11-20 16:10:14,409 [INFO] src.utils — Training curves saved to C:\Users\kas20\defect_detection\results\training_curves.png
