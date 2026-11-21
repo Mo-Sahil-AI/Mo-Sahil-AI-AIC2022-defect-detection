@@ -27,14 +27,20 @@ Key Highlights:
 
 ```
 defect_detection/
-├── data/                             # (Optional) local data folder
-├── models/                           # Saved model checkpoints
-│   ├── best_model.pth                # Best fine-tuned ResNet-18 weights (val_acc=99.65%)
+├── demo_video/                       # Application demonstration video
+│   └── app_demonstration.mp4         # 1:27 min live walkthrough of the Gradio Web App
+├── latex_report/                     # Complete Overleaf-ready LaTeX project
+│   ├── AIC2022_LaTeX_Report.pdf      # Typeset IEEE technical report (18 pages)
+│   ├── main.tex                      # Full LaTeX source code
+│   └── references.bib                # 15 IEEE BibTeX citations
+├── models/                           # Model checkpoints & logs
+│   ├── best_model.pth                # Fine-tuned ResNet-18 weights (val_acc=99.65%)
 │   └── training.log                  # Comprehensive training and validation log
 ├── notebooks/
 │   └── demo.ipynb                    # Step-by-step interactive Jupyter notebook
-├── report/
-│   ├── AIC2022_Report.md             # Complete 10-15 page IEEE technical report
+├── report/                           # Markdown documentation & report files
+│   ├── AIC2022_LaTeX_Report.pdf      # Compiled publication-grade PDF report
+│   ├── AIC2022_Report.md             # Complete technical report source text
 │   └── cover_page.md                 # Assignment cover page template
 ├── results/                          # Evaluation outputs & visual figures
 │   ├── classification_report.txt     # Per-class precision, recall, and F1 metrics

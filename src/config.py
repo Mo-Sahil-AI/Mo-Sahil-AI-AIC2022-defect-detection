@@ -32,10 +32,17 @@ CLASS_NAMES = ["def_front", "ok_front"]   # index 0 → defective, index 1 → o
 # Auto-detect dataset root (handles nested archive/casting_data/casting_data structures)
 def _find_dataset_root() -> str:
     candidates = [
+        # Linux / Ubuntu / Mac paths
+        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"),
+        os.path.expanduser("~/Downloads/archive/casting_data/casting_data"),
+        os.path.expanduser("~/Downloads/archive/casting_data"),
+        os.path.expanduser("~/Downloads/archive"),
+        os.path.expanduser("~/archive/casting_data/casting_data"),
+        os.path.expanduser("~/archive/casting_data"),
+        # Windows paths
         r"C:\Users\kas20\Downloads\archive\casting_data\casting_data",
         r"C:\Users\kas20\Downloads\archive\casting_data",
         r"C:\Users\kas20\Downloads\archive",
-        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data"),
     ]
     for candidate in candidates:
         if os.path.isdir(os.path.join(candidate, "train")):

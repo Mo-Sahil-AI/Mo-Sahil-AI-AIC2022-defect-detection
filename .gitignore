@@ -31,3 +31,12 @@ Thumbs.db
 *.pt
 models/*.pth
 *.pt.tmp
+
+# Video files & demo recordings (large binaries)
+demo_video/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
